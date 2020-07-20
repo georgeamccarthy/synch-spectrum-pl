@@ -96,7 +96,7 @@ axs[1].plot(w, y1, label=r'$P_{tot}(\omega)$')
 # TODO: Fits need shifting.
 axs[1].plot(w, pow(w, 1/3), '--', label=r'$\omega^\frac{1}{3}$ fit')
 axs[1].plot(w, pow(w, -(p-1)/2), '--', label=r'$\omega^{\frac{-(p-1)}{2}}$ fit')
-axs[1].plot(w, pow(e, -w), '--', label=r'e$^{-\omega}$ fit')
+axs[1].plot(w, pow(e, -w, '--', label=r'e$^{-\omega}$ fit')
 axs[1].set_ylabel(r'N($\gamma$)')
 axs[1].set_ylabel(r'$P_{tot}(\omega)$')
 axs[1].set_xscale('log')
